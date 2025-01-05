@@ -31,4 +31,4 @@ We use YOLO v8 provided by ultralytics to detect the cellphone on the desktop an
 ### Others
 
 Image Calibration:
-Images are often subject to [perspective distortion](https://en.wikipedia.org/wiki/Perspective_distortion). This can trigger a serious problem when one needs to use an unprocessed image to locate the exact position of an item. Therefore, in this project, we use several [linear equations and the corner positions](https://jason-chen-1992.weebly.com/home/-perspective-distortion-correction) to cope with this issue.
+Images are often subject to [perspective distortion](https://en.wikipedia.org/wiki/Perspective_distortion). This can trigger a serious problem when one needs to use an unprocessed image to find the exact position of an item. Therefore, in this project, we use several [linear equations and the corner positions](https://jason-chen-1992.weebly.com/home/-perspective-distortion-correction) to make corrections and hence cope with this issue.
